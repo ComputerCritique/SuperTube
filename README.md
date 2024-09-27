@@ -1,7 +1,5 @@
 <div class"logo">
-  <style>*{
-  text-algin:center;
-  }</style>
+text-algin:center;
 <h1>SuperTybe</h1>
   <img scr="/img/logo">
 </div>
