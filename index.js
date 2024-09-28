@@ -1,7 +1,8 @@
-// your code goes he// Выбираем кнопку
-const btn = document.querySelector(".btn-toggle");
-// Отслеживаем щелчок по кнопке
-btn.addEventListener("click", function () {
-  // Затем переключаем (добавляем/удаляем) класс .dark-theme для body
-  document.body.classList.toggle("dark-theme");
-});re
+document.getElementById('themeToggle').addEventListener('click', function() {
+    const currentTheme = document.body.className;
+    if (currentTheme === 'light-theme') {
+        document.body.className = 'dark-theme';
+    } else {
+        document.body.className = 'light-theme';
+    }
+});
