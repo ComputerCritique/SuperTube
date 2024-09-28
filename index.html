@@ -15,7 +15,16 @@
     </div>
 <div class="tema">
 <button id='themeToggle'>Переключить тему</button>
-
+<script>
+document.getElementById('themeToggle').addEventListener('click', function() {
+    const currentTheme = document.body.className;
+    if (currentTheme === 'light-theme') {
+        document.body.className = 'dark-theme';
+    } else {
+        document.body.className = 'light-theme';
+    }
+});
+</script>
 
 </div>
 </body>
